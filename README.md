@@ -1,6 +1,6 @@
 # Semantic Book Recommender
 
-A smart, AI-powered book recommendation system that understands **meaning**, not just keywords. Built using **Hugging Face**, **LangChain**, **Gradio**, and **Python**, this tool helps users discover books that match their thoughts, feelings, or themes — even vague ones.
+A smart, AI-powered book recommendation system that understands **meaning**, not just keywords. Built using **Hugging Face**, **LangChain**, **Gradio**, and **Python**, this tool helps users discover books that match their thoughts, feelings, or themes.
 
 ---
 
@@ -10,14 +10,14 @@ A smart, AI-powered book recommendation system that understands **meaning**, not
 -  Powered by **Hugging Face sentence-transformers**  
 -  Uses **LangChain + FAISS** for vector storage and querying  
 -  Clean and easy-to-use **Gradio interface**  
--  Optional **OpenAI** support (via `.env`) — defaults to **free Hugging Face model**  
+-  Optional **OpenAI** support (via `.env`) defaults to **free Hugging Face model**  
 -  Fast, lightweight, and runs locally
 
 ---
 
 ## How It Works
 
-1. The book descriptions are encoded using a transformer model like `all-MiniLM-L6-v2`.
+1. The book descriptions are encoded using a transformer model like (all-MiniLM-L6-v2).
 2. A user types in a natural language query like:
    > "Books about self-discovery and ancient cultures"
 3. The system calculates the **cosine similarity** between the query and book vectors.
