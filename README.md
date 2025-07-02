@@ -38,17 +38,8 @@ A smart, AI-powered book recommendation system that understands **meaning**, not
 
 ---
 
-## File Structure
-
-## semantic-book-recommender/
-│
-├── Book_Recommender.ipynb # Main logic and interface
-├── Vector_Search.ipynb # Vector storage & retrieval (LangChain + FAISS)
-├── Text_classification.ipynb # (Optional) additional classification
-├── books_cleaned.csv # Dataset with book titles & descriptions
-├── .gitignore # Ignores .env and unnecessary files
-├── .env # (Ignored) for API keys
-└── README.md # Project documentation
+## Youtube Preview
+- https://youtu.be/k7keayx4WN0
 
 ---
 
